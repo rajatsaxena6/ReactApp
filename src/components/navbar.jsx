@@ -10,5 +10,4 @@ const Navbar = ({ totalCount }) => {
     </nav>
   );
 };
-
 export default Navbar;
