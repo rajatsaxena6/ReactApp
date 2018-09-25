@@ -2,7 +2,7 @@
 FROM mhart/alpine-node:8
 
 # copied the current directory to the react-app in the container.
-RUN mkdir react-app
+COPY . /react-app
 
 # specified the working directory in the container.
 WORKDIR /react-app
